@@ -16,7 +16,7 @@ on:
         description: 'Video quality (yt-dlp format selector)'
         required: true
         type: string
-        default: 'bestvideo[height<=720]+bestaudio/best[ext=mp4]/best'
+        default: 'bestvideo[height<=144]+bestaudio/best[ext=mp4]/best'
       archive_name:
         description: 'Base name for the RAR archive (if file is split)'
         required: false
